@@ -1,0 +1,99 @@
+.container {
+  background-image: url(../Assets/Bg.svg);
+  width: 375px;
+  height: 650px;
+  margin: auto;
+}
+
+.statusbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  color: white;
+  height: 44px;
+  margin: auto;
+}
+
+.statusbar > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  margin: -10px 0px 0px 21px;
+  font-weight: bold;
+}
+
+.statusbar > div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.statusbar > div:nth-child(2) > img {
+  width: 24px;
+  height: 15px;
+  margin-top: 10px;
+}
+
+.location {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.crossIcon {
+  width: 20px;
+  height: 20px;
+  margin-left: 30.63px;
+  margin-top: 14px;
+}
+
+.liveButton {
+  width: 73px;
+  height: 38px;
+  margin-right: 35px;
+  margin-top: 10px;
+  background-color: #ff2d55;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+.currentLocation {
+  width: 187px;
+  height: 40px;
+  background-color: #023940;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 126px;
+  display: flex;
+  flex-direction: row;
+}
+
+.currentLocation > img {
+  width: 14px;
+  height: 17px;
+  margin-left: 18px;
+  margin-top: 14px;
+}
+
+.currentLocation > p {
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-top: 12px;
+}
+
+.locationName {
+  color: white;
+  width: 300px;
+  height: 120px;
+  margin-left: 30px;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 20px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}

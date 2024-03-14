@@ -1,0 +1,195 @@
+.container {
+  width: 375px;
+  margin: auto;
+  background-color: white;
+}
+
+.statusbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  color: black;
+  height: 44px;
+  margin: auto;
+}
+
+hr {
+  width: 90%;
+}
+
+.statusbar > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  margin: -10px 0px 0px 21px;
+  font-weight: bold;
+}
+
+.statusbar > div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.statusbar > div:nth-child(2) > img {
+  width: 24px;
+  height: 15px;
+  margin-top: 10px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.menuIcon {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1 {
+  width: 20px;
+  height: 2px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.bar2 {
+  width: 15px;
+  height: 2px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.searchIcon {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.cityDetails {
+  width: 90%;
+  display: flex;
+  gap: 5px;
+  margin: auto;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.cityInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cityName {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.liveIcon {
+  width: 73px;
+  height: 38px;
+  margin-right: 35px;
+  margin-top: 10px;
+  background-color: #ff2d55;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+.weatherIcon {
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: #057bff;
+}
+
+.weatherIcon img {
+  width: 30px;
+  height: 30px;
+}
+
+.cityImage{
+  width: 130px;
+  height: 110px;
+  border-radius: 20px;
+}
+
+.weatherPredictor {
+  display: flex;
+  gap: 5px;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  background-color: #003339;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 110px;
+  color: white;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.currentWeather .weatherHour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.additionalInfo {
+  text-align: left;
+  width: 90%;
+  margin: auto;
+}
+
+.additionalInfoItem {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.date,
+.humidity,
+.windy,
+.precipitation {
+  color: #96969a;
+  text-align: left;
+}
+
+.tempratureDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.tempHead {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.monthSelector {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.waves {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  height: 200px;
+  background-image: url("../Assets/wave.svg");
+  background-size: cover;
+}
